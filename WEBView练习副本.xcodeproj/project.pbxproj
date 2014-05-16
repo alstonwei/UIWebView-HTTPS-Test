@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69228EE21924AAE10030C915 /* reloadButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 69228EDA1924AAE10030C915 /* reloadButton.png */; };
+		69228EE31924AAE10030C915 /* reloadButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69228EDB1924AAE10030C915 /* reloadButton@2x.png */; };
+		69228EE41924AAE10030C915 /* nextButtonWeb.png in Resources */ = {isa = PBXBuildFile; fileRef = 69228EDC1924AAE10030C915 /* nextButtonWeb.png */; };
+		69228EE51924AAE10030C915 /* nextButtonWeb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69228EDD1924AAE10030C915 /* nextButtonWeb@2x.png */; };
+		69228EE61924AAE10030C915 /* previousButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 69228EDE1924AAE10030C915 /* previousButton.png */; };
+		69228EE71924AAE10030C915 /* previousButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69228EDF1924AAE10030C915 /* previousButton@2x.png */; };
+		69228EE81924AAE10030C915 /* stopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 69228EE01924AAE10030C915 /* stopButton.png */; };
+		69228EE91924AAE10030C915 /* stopButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69228EE11924AAE10030C915 /* stopButton@2x.png */; };
+		69228EEC1924AAFD0030C915 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 69228EEA1924AAFD0030C915 /* backButton.png */; };
+		69228EED1924AAFD0030C915 /* backButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69228EEB1924AAFD0030C915 /* backButton@2x.png */; };
 		69429C0F19234B450040D7C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69429C0E19234B450040D7C8 /* Foundation.framework */; };
 		69429C1119234B450040D7C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69429C1019234B450040D7C8 /* CoreGraphics.framework */; };
 		69429C1319234B450040D7C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69429C1219234B450040D7C8 /* UIKit.framework */; };
@@ -21,6 +31,12 @@
 		69429C3019234B450040D7C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69429C1219234B450040D7C8 /* UIKit.framework */; };
 		69429C3819234B450040D7C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69429C3619234B450040D7C8 /* InfoPlist.strings */; };
 		69429C3A19234B450040D7C8 /* WEBView__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69429C3919234B450040D7C8 /* WEBView__Tests.m */; };
+		69429C4519234C3A0040D7C8 /* BrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69429C4419234C3A0040D7C8 /* BrowserController.m */; };
+		69429C4D1923644C0040D7C8 /* 37x-Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 69429C461923644C0040D7C8 /* 37x-Checkmark.png */; };
+		69429C4E1923644C0040D7C8 /* 37x-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69429C471923644C0040D7C8 /* 37x-Checkmark@2x.png */; };
+		69429C4F1923644C0040D7C8 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 69429C491923644C0040D7C8 /* MBProgressHUD+Add.m */; };
+		69429C501923644C0040D7C8 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 69429C4A1923644C0040D7C8 /* MBProgressHUD.bundle */; };
+		69429C511923644C0040D7C8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 69429C4C1923644C0040D7C8 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69228EDA1924AAE10030C915 /* reloadButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reloadButton.png; sourceTree = "<group>"; };
+		69228EDB1924AAE10030C915 /* reloadButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reloadButton@2x.png"; sourceTree = "<group>"; };
+		69228EDC1924AAE10030C915 /* nextButtonWeb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextButtonWeb.png; sourceTree = "<group>"; };
+		69228EDD1924AAE10030C915 /* nextButtonWeb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nextButtonWeb@2x.png"; sourceTree = "<group>"; };
+		69228EDE1924AAE10030C915 /* previousButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previousButton.png; sourceTree = "<group>"; };
+		69228EDF1924AAE10030C915 /* previousButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "previousButton@2x.png"; sourceTree = "<group>"; };
+		69228EE01924AAE10030C915 /* stopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopButton.png; sourceTree = "<group>"; };
+		69228EE11924AAE10030C915 /* stopButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stopButton@2x.png"; sourceTree = "<group>"; };
+		69228EEA1924AAFD0030C915 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		69228EEB1924AAFD0030C915 /* backButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backButton@2x.png"; sourceTree = "<group>"; };
 		69429C0B19234B450040D7C8 /* WEBView练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WEBView练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69429C0E19234B450040D7C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		69429C1019234B450040D7C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +79,15 @@
 		69429C3519234B450040D7C8 /* WEBView练习Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WEBView练习Tests-Info.plist"; sourceTree = "<group>"; };
 		69429C3719234B450040D7C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		69429C3919234B450040D7C8 /* WEBView__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WEBView__Tests.m; sourceTree = "<group>"; };
+		69429C4319234C3A0040D7C8 /* BrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserController.h; sourceTree = "<group>"; };
+		69429C4419234C3A0040D7C8 /* BrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserController.m; sourceTree = "<group>"; };
+		69429C461923644C0040D7C8 /* 37x-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark.png"; sourceTree = "<group>"; };
+		69429C471923644C0040D7C8 /* 37x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark@2x.png"; sourceTree = "<group>"; };
+		69429C481923644C0040D7C8 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		69429C491923644C0040D7C8 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		69429C4A1923644C0040D7C8 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		69429C4B1923644C0040D7C8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		69429C4C1923644C0040D7C8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +147,23 @@
 		69429C1419234B450040D7C8 /* WEBView练习 */ = {
 			isa = PBXGroup;
 			children = (
+				69228EEA1924AAFD0030C915 /* backButton.png */,
+				69228EEB1924AAFD0030C915 /* backButton@2x.png */,
+				69228EDA1924AAE10030C915 /* reloadButton.png */,
+				69228EDB1924AAE10030C915 /* reloadButton@2x.png */,
+				69228EDC1924AAE10030C915 /* nextButtonWeb.png */,
+				69228EDD1924AAE10030C915 /* nextButtonWeb@2x.png */,
+				69228EDE1924AAE10030C915 /* previousButton.png */,
+				69228EDF1924AAE10030C915 /* previousButton@2x.png */,
+				69228EE01924AAE10030C915 /* stopButton.png */,
+				69228EE11924AAE10030C915 /* stopButton@2x.png */,
+				69429C461923644C0040D7C8 /* 37x-Checkmark.png */,
+				69429C471923644C0040D7C8 /* 37x-Checkmark@2x.png */,
+				69429C481923644C0040D7C8 /* MBProgressHUD+Add.h */,
+				69429C491923644C0040D7C8 /* MBProgressHUD+Add.m */,
+				69429C4A1923644C0040D7C8 /* MBProgressHUD.bundle */,
+				69429C4B1923644C0040D7C8 /* MBProgressHUD.h */,
+				69429C4C1923644C0040D7C8 /* MBProgressHUD.m */,
 				69429C1D19234B450040D7C8 /* WSQAppDelegate.h */,
 				69429C1E19234B450040D7C8 /* WSQAppDelegate.m */,
 				69429C2019234B450040D7C8 /* Main.storyboard */,
@@ -119,6 +171,8 @@
 				69429C2419234B450040D7C8 /* WSQViewController.m */,
 				69429C2619234B450040D7C8 /* Images.xcassets */,
 				69429C1519234B450040D7C8 /* Supporting Files */,
+				69429C4319234C3A0040D7C8 /* BrowserController.h */,
+				69429C4419234C3A0040D7C8 /* BrowserController.m */,
 			);
 			path = "WEBView练习";
 			sourceTree = "<group>";
@@ -229,9 +283,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69228EE51924AAE10030C915 /* nextButtonWeb@2x.png in Resources */,
+				69429C4D1923644C0040D7C8 /* 37x-Checkmark.png in Resources */,
 				69429C2719234B450040D7C8 /* Images.xcassets in Resources */,
+				69228EE71924AAE10030C915 /* previousButton@2x.png in Resources */,
+				69228EE41924AAE10030C915 /* nextButtonWeb.png in Resources */,
+				69228EE21924AAE10030C915 /* reloadButton.png in Resources */,
+				69228EE31924AAE10030C915 /* reloadButton@2x.png in Resources */,
+				69228EEC1924AAFD0030C915 /* backButton.png in Resources */,
 				69429C1919234B450040D7C8 /* InfoPlist.strings in Resources */,
+				69429C4E1923644C0040D7C8 /* 37x-Checkmark@2x.png in Resources */,
 				69429C2219234B450040D7C8 /* Main.storyboard in Resources */,
+				69228EED1924AAFD0030C915 /* backButton@2x.png in Resources */,
+				69228EE61924AAE10030C915 /* previousButton.png in Resources */,
+				69429C501923644C0040D7C8 /* MBProgressHUD.bundle in Resources */,
+				69228EE91924AAE10030C915 /* stopButton@2x.png in Resources */,
+				69228EE81924AAE10030C915 /* stopButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +318,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				69429C1F19234B450040D7C8 /* WSQAppDelegate.m in Sources */,
+				69429C511923644C0040D7C8 /* MBProgressHUD.m in Sources */,
 				69429C2519234B450040D7C8 /* WSQViewController.m in Sources */,
+				69429C4F1923644C0040D7C8 /* MBProgressHUD+Add.m in Sources */,
+				69429C4519234C3A0040D7C8 /* BrowserController.m in Sources */,
 				69429C1B19234B450040D7C8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +527,7 @@
 				69429C3F19234B450040D7C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69429C4019234B450040D7C8 /* Build configuration list for PBXNativeTarget "WEBView练习Tests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +536,7 @@
 				69429C4219234B450040D7C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

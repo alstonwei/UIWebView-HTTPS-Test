@@ -7,8 +7,13 @@
 //
 
 #import "WSQViewController.h"
+#import "BrowserController.h"
+
 
 @interface WSQViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *txtUrl;
+@property (weak, nonatomic) IBOutlet UIButton *btnSearchClicked;
+- (IBAction)btnSearchClicked:(id)sender;
 
 @end
 
@@ -26,4 +31,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnSearchClicked:(id)sender {
+    NSURL* url = [NSURL URLWithString:_txtUrl.text];
+    BrowserController* b = [BrowserController new];
+    b.currenURL = url;
+    UINavigationController* navi = [[UINavigationController alloc] initWithRootViewController:b];
+    [self presentViewController:navi animated:YES completion:nil];
+
+}
 @end
